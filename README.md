@@ -24,4 +24,4 @@ The objective is to identify key cost drivers and analyze how demographics, insu
 
 ---
 
-* CS668 Capstone Project | Spring 2025*
+* CS668 Capstone Project | Spring 2025
