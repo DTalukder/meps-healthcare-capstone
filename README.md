@@ -14,9 +14,9 @@ The objective is to identify key cost drivers and analyze how demographics, insu
 
 ## Coming Soon
 
-- `eda_notebook.ipynb` – Exploratory Data Analysis
+- `eda_notebook.ipynb` – Exploratory Data Analysis (done, file too large to upload)
 - `modeling_notebook.ipynb` – Predictive modeling (in progress)
-- `meps_cleaned.csv` – Cleaned dataset for modeling
+- `meps_cleaned.csv` – Cleaned dataset for modelingm (done, file too large to upload)
 
 ## Dataset Source
 
