@@ -7,10 +7,10 @@ The objective is to identify key cost drivers and analyze how demographics, insu
 ## Project Breakdown
 
 - Proposal: Defined the problem — unpredictable and rising healthcare costs.
-- Literature Review: Synthesized findings from 6 relevant studies.
+- Literature Review: Summarize findings from 6 relevant studies.
 - Dataset: MEPS HC-243 (22,431 rows × 1,420 columns).
-- EDA: Cleaned and explored the dataset to uncover initial insights.
-- Next Steps: Feature engineering and predictive modeling.
+- EDA: Cleaned and explored the dataset.
+- Next Steps: Predictive modeling.
 
 ## Coming Soon
 
