@@ -64,6 +64,14 @@ The top predictors of healthcare costs included:
 
 - [MEPS HC-243 Dataset (2022)](https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-243)
 
+
+## Dataset Access (External Link)
+
+Due to file size limits, key datasets are hosted externally:
+
+- [MEPS Raw Excel File – h243.xlsx](https://docs.google.com/spreadsheets/d/1BaL_Yar9wivzIVNd3rmeIjbbtC5-UOLV/edit?usp=drive_link&ouid=103669975884075903926&rtpof=true&sd=true)
+- [Cleaned Modeling Dataset – meps_cleaned.csv](https://drive.google.com/file/d/1VvTNsor0S2T5yTib-2lbY-c0VyzySp19/view?usp=drive_link)
+
 ---
 
 **Course**: CS668 - Capstone Project | Spring 2025
