@@ -4,19 +4,61 @@ This capstone project explores patterns in U.S. healthcare spending using the 20
 
 The goal is to **predict total healthcare expenditure** (`TOTEXP22`) and **identify key cost drivers** such as insurance types, income level, and demographics.
 
-## Project Breakdown
+## Project Overview
 
-- Proposal: Defined the problem — unpredictable and rising healthcare costs.
-- Literature Review: Summarize findings from 6 relevant studies.
-- Dataset: MEPS HC-243 (22,431 rows × 1,420 columns).
-- EDA: Cleaned and explored the dataset.
-- Next Steps: Predictive modeling.
+- **Problem**: Unpredictable and rising healthcare costs in the U.S.
+- **Objective**: Predict `TOTEXP22` (Total Expenditure) using machine learning and extract insights on what drives high healthcare spending.
+- **Dataset**: MEPS HC-243 (22,431 rows × 1,420 features)
 
-## Coming Soon
+## Project Steps
 
-- `eda_notebook.ipynb` – Exploratory Data Analysis (done, file too large to upload)
-- `modeling_notebook.ipynb` – Predictive modeling (in progress)
-- `meps_cleaned.csv` – Cleaned dataset for modelingm (done, file too large to upload)
+| Step | Description |
+|------|-------------|
+| 1. Project Proposal | Defined the problem and approach |
+| 2. Literature Review | Summarized 6+ peer-reviewed studies |
+| 3. Dataset Description | Provided breakdown of MEPS HC-243 |
+| 4. EDA | Cleaned, explored, and visualized the data |
+| 5. Feature Engineering | Selected key predictors, handled skewed values |
+| 6. Modeling | Trained and evaluated multiple ML models |
+| 7. Interpretation | Used feature importances to explain predictions |
+| 8. GitHub Deployment | Uploaded code, data, and project structure |
+
+
+## Modeling Results
+
+| Model               | MAE     | RMSE     | R²     |
+|--------------------|---------|----------|--------|
+| Linear Regression  | 204.33  | 1,438.71 | 0.9943 |
+| Decision Tree      | 988.88  | 9,211.89 | 0.7648 |
+| Random Forest      | 661.07  | 4,248.95 | 0.9500 |
+| Gradient Boosting  | 749.48  | 3,838.15 | 0.9592 |
+| XGBoost            | 948.92  | 7,949.97 | 0.8249 |
+
+>  **Best model**: Gradient Boosting (balanced performance + interpretation)
+
+---
+
+## Feature Importances (Gradient Boosting)
+
+The top predictors of healthcare costs included:
+- **TOTPTR22**: Total private third-party payments
+- **TOTMCR22**: Medicare payments
+- **TOTMCD22**: Medicaid payments
+- **TOTPRV22**: Total private insurance
+- **TOTSLF22**: Out-of-pocket/self-pay
+
+
+##  Files in this Repository
+
+| File | Description |
+|------|-------------|
+| `eda_notebook.ipynb` | Full Exploratory Data Analysis |
+| `modeling_notebook.ipynb` | Feature engineering + modeling |
+| `meps_cleaned.csv` | Cleaned dataset (used in modeling) |
+| `README.md` | This file |
+| `.gitignore` | Git tracking exclusions |
+
+
 
 ## Dataset Source
 
@@ -24,4 +66,5 @@ The goal is to **predict total healthcare expenditure** (`TOTEXP22`) and **ident
 
 ---
 
-* CS668 Capstone Project | Spring 2025
+**Course**: CS668 - Capstone Project | Spring 2025
+**Author**: DTalukder
