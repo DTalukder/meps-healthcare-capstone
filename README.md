@@ -2,7 +2,7 @@
 
 This capstone project explores patterns in U.S. healthcare spending using the 2022 Full-Year Consolidated Data File (HC-243) from the Medical Expenditure Panel Survey (MEPS). 
 
-The objective is to identify key cost drivers and analyze how demographics, insurance types, and medical conditions influence healthcare expenditures.
+The goal is to **predict total healthcare expenditure** (`TOTEXP22`) and **identify key cost drivers** such as insurance types, income level, and demographics.
 
 ## Project Breakdown
 
