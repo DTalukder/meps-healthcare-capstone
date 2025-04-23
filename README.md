@@ -53,7 +53,7 @@ The top predictors of healthcare costs included:
 | File | Description |
 |------|-------------|
 | `eda.ipynb` | Full Exploratory Data Analysis |
-| `modeling_notebook.ipynb` | Feature engineering + modeling |
+| `modeling_notebook.ipynb` | Full pipeline: Exploratory Data Analysis, Feature Engineering, and Predictive Modeling |
 | `meps_cleaned.csv` | Cleaned dataset (used in modeling) |
 | `README.md` | This file |
 | `.gitignore` | Git tracking exclusions |
