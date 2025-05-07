@@ -17,11 +17,12 @@ The goal is to **predict total healthcare expenditure** (`TOTEXP22`) and **ident
 | 1. Project Proposal | Defined the problem and approach |
 | 2. Literature Review | Summarized 6+ peer-reviewed studies |
 | 3. Dataset Description | Provided breakdown of MEPS HC-243 |
-| 4. EDA | Cleaned, explored, and visualized the data |
+| 4. [EDA](https://github.com/DTalukder/meps-healthcare-capstone/blob/main/Code/EDA.ipynb) | Cleaned, explored, and visualized the data |
 | 5. Feature Engineering | Selected key predictors, handled skewed values |
 | 6. Modeling | Trained and evaluated multiple ML models |
 | 7. Interpretation | Used feature importances to explain predictions |
 | 8. GitHub Deployment | Uploaded code, data, and project structure |
+| 9. Poster | Designed and published final project poster (PDF) |
 
 
 ## Modeling Results
