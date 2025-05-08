@@ -22,7 +22,7 @@ The goal is to **predict total healthcare expenditure** (`TOTEXP22`) and **ident
 | 6. [Modeling](https://github.com/DTalukder/meps-healthcare-capstone/blob/main/Code/modeling_notebook.ipynb) | Trained and evaluated multiple ML models |
 | 7. Interpretation | Used feature importances to explain predictions |
 | 8. GitHub Deployment | Uploaded code, data, and project structure |
-| 9. [Poster](https://github.com/DTalukder/meps-healthcare-capstone/blob/main/Docs/Capstone_MEPS_CostPrediction_Poster_2025.pdf) | Designed and published final project poster (PDF) |
+| 9. [Poster](https://github.com/DTalukder/meps-healthcare-capstone/blob/main/Docs/Capstone_MEPS_CostPrediction_Poster_2025.pdf) | Project poster (PDF) |
 
 
 ## Modeling Results
